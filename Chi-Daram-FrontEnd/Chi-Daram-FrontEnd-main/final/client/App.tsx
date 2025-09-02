@@ -1,4 +1,5 @@
 import "./global.css";
+const baseUrl = import.meta.env.VITE_API_URL;
 
 import { Toaster } from "@/components/ui/toaster";
 import { createRoot } from "react-dom/client";
